@@ -2,7 +2,6 @@ let cells = [];
 const width = 1000;
 const height = 750;
 let resetBtn;
-let generations = 0;
 
 function setup() {
 
@@ -64,7 +63,7 @@ function draw() {
 // reset button clicked
 const handleReset = () => {
     cells = initialCells();
-}
+};
 
 const initialCells = () => {
     const newCells = [];
@@ -83,7 +82,7 @@ const initialCells = () => {
     }
 
     return newCells;
-}
+};
 
 
 class Cell {
