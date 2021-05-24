@@ -10,7 +10,7 @@ function setup() {
     frameRate(20);
 
     resetBtn = createButton('Restart');
-    resetBtn.position(width / 2, height + 25);
+    resetBtn.position(width / 2, 0);
     resetBtn.mousePressed(handleReset);
 
 
